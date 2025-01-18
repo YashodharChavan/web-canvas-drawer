@@ -1,0 +1,17 @@
+canvas {
+    border: 1px solid red;
+    display: block;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    background-color: rgb(101, 101, 234);
+    border-radius: 12px;
+    padding: 12px 8px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}

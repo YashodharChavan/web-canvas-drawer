@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Dragging</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input type="radio" id="black" name="color" value="black" checked>
+    <label for="black">black</label>
+    <input type="radio" id="green" name="color" value="green">
+    <label for="green">green</label>
+    <input type="radio" id="red" name="color" value="red">
+    <label for="red">red</label>
+    <input type="radio" id="blue" name="color" value="blue">
+    <label for="blue">blue</label>
+
+    <input onchange="handleIntensityChange()" type="range" minlength="10" maxlength="100" name="intensity" id="intensity" value="10">
+    <label for="intensity">intensity</label>
+
+    <button id="reset">reset</button>
+
+    <canvas id="myCanvas" height="700" width="1330"></canvas>   
+
+    <script src="script.js"></script>
+</body>
+</html>
