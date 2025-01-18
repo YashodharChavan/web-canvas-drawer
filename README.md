@@ -25,6 +25,7 @@
 
 You can see a live demo of the project in action by opening the HTML file in your browser.
 
+<img src='image.png'>
 ---
 
 ## Technologies Used
